@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 50px;
+    text-align: center;
+    background: black;
+    color: #ffff;
+}
+
+section{
+    min-height: 600px;
+    background: url("helmet.jpg") center/cover no-repeat;
+}
+
+.myProjects{
+    margin-top: 30px;
+}
+
+.myProjects a{
+    color: #39bedc;
+
+}
