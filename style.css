@@ -2,23 +2,34 @@
     margin: 0;
     padding: 0;
 }
-html{
+html {
     font-size: 50px;
     text-align: center;
     background: black;
     color: #ffff;
 }
 
-section{
+section {
     min-height: 600px;
     background: url("helmet.jpg") center/cover no-repeat;
 }
 
-.myProjects{
+.myProjects {
     margin-top: 30px;
 }
 
-.myProjects a{
+.myProjects a {
     color: #39bedc;
+    display: block; /* Каждая ссылка будет на отдельной строке */
+    margin: 10px 0; /* Добавим отступы между ссылками */
+}
 
+.portfolio {
+    margin-top: 50px; /* Отступ сверху для раздела портфолио */
+    color: #39bedc; /* Цвет текста ссылки */
+}
+
+.portfolio a {
+    color: #39bedc;
+    text-decoration: underline; /* Подчёркивание для ссылки */
 }
